@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #251F47;
+}
+.subtitles {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2E282A;
+}
+button {
+    font-size: 36px;
+}
