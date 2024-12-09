@@ -4,19 +4,16 @@ html {
   font-size: 24px;
   font-family: monospace;
   color: #17183b;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
-#maintitle,
 .title {
   margin: 10px 0;
   font-size: 48px;
   text-align: center;
 }
-.mainimage {
-  height: auto;
-  width: 400px;
-}
-.submainbox1,
-.submainbox2 {
+.submainbox {
   display: inline-block;
   height: auto;
   width: 400px;
@@ -30,8 +27,7 @@ html {
   border: 10px solid #acbfa4;
 }
 #mainbox1:hover,
-.submainbox1:hover,
-.submainbox2:hover {
+.submainbox:hover {
   border: 10px solid #d65108;
 }
 a {
@@ -48,29 +44,19 @@ a {
   border: solid 1px #17183b;
 }
 .svg:hover {
-  width: 30px;
-  height: 30px;
-  margin: 2px;
   border: solid 1px #d65108;
 }
-.subbox1,
-.subbox2,
-.subbox3,
-.subbox4 {
+.subbox {
   width: 400px;
   height: auto;
   border: 10px solid #acbfa4;
   display: inline-block;
   padding: 10px;
   margin: 20px;
+  overflow: hidden;
+  vertical-align: top;
 }
 .image {
   width: 400px;
   height: auto;
-}
-.box1, 
-.box2 {
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
 }
